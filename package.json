@@ -44,10 +44,7 @@
     "html-loader": "^0.4.5",
     "node-sass": "^4.5.0",
     "npm-run-all": "^3.1.2",
-    "openlayers": "^4.0.1",
     "raw-loader": "^0.5.1",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
     "react-router": "^3.0.2",
     "resolve-url-loader": "^2.0.1",
     "rimraf": "^2.6.0",
@@ -63,6 +60,11 @@
     "webpack-dev-server": "^2.4.1",
     "webtest": "^0.3.6",
     "zone.js": "^0.6.21"
+  },
+  "peerDependencies" : {
+    "openlayers": "^4.0.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"    
   },
   "dependencies": {
     "@types/googlemaps": "^3.26.4",
